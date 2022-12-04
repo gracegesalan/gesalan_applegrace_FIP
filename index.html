@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Exploring London Canada</title>
+<link href="https://fonts.google.com/specimen/Cinzel?query=cinzel" rel='stylesheet'>
+<link href="css/main.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/71dcd4bc4d.js" crossorigin="anonymous"></script>
+</head>
+<!-- students must convert divs to semantic tags -->
+<body>
+	<div id="container">
+        
+        
+        <header id="main-header" class="grid-con">
+            <a class="hidden" href="#content">Skip to content</a>
+            <div id="logo" class="header-box1">
+                <img src="images/logo.svg" alt="Exploring london canada logo" >
+            </div>
+    
+            <nav id="main-nav">
+                <h2 class="hidden">Main Navigation</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Where To Go</a></li>
+                    <li><a href="#">Vintage Stores</a></li>
+                    <li><a href="#">Art Delight</a></li>
+                    <li><a href="#">What's New</a></li>
+                </ul>
+            </nav>
+    
+            <a class="search" id="search-now-top" href="#"><h3>What are you looking for?</h3></a>    
+
+        </header>
+
+        <main>
+            <section class="grid-con" id="hero">
+                <div id="hero-text">
+                    <h2>Exploring London Canada</h2>
+                    <p>When people hear the word 'London' they think about London in the United Kingdom, which is understandable. But did you know there is another London in Canada? It is a city full of heritage, arts, cultural spots, and natural beauty. There are a lot of things to see and do while in the city. There is a place for you here whether you like vintage finds, art galleries, Hockey, fresh finds, and more. 
+                    </p>
+                    <p>London pride itself on being the center of higher education, state-of-the-art medical research, and technology in southwestern Ontario. </p>
+
+                    <a class="more-london" id="more-london-button" href="#"><h3>Learn More About The City</h3></a> 
+
+                </div>
+                <img src= "images/hero.jpg" alt="hero image" id="hero-image">
+            </section>  
+
+            <div class="grid-con" id="topspot"> 
+                <h2>HOTSPOTS IN LONDON</h2>
+                <div class="hotspot" id="spot1">
+                    <img src="images/hotspot_1.jpg" alt="exterior of budweiser garden" class="zoom">
+                    <h3>BUDWEISER GARDEN</h3>
+                    <p>It is a sports-entertainment centre, in London, Ontario, Canada. This is the largest such centre in Southwestern Ontario, Canada. Hockey games, concerts, or events Budweiser is the place to go. </p>
+                    
+                </div>
+                <div class="hotspot" id="spot2">
+                    <img src="images/hotspot_2.jpg" alt="exterior of covent market" class="zoom">
+                    <h3>COVENT MARKET</h3>
+                    <p>They offer an abundance of great food, services, a weekly local farmers’ market and an array of culture. Get your fresh produce and local products at Covent Market. They have everything for you.</p>
+                    
+                </div>
+                <div class="hotspot" id="spot3">
+                    <img src="images/hotspot_3.jpg" alt="exterior of museum london" class="zoom">
+                    <h3>Museum London</h3>
+                    <p>It is an art and history museum located in London, Ontario, Canada. Find unique and beautiiful arts inside. Learn and discover various art styles. Visit Museum London now. </p>
+                    
+                </div>
+            </div>
+
+
+            <h2 id="about-title">VINTAGE GEMS IN LONDON</h2>
+            <div id="about-con">
+                <div class="grid-con2">
+                    <div class="about-text">
+                            <h3>Looking for something unique to wear?
+                            Check out London's Thrift Stores
+                            </h3>
+
+                            <p>Whether it's summer, autumn, winter, or spring the city's vintage stores has you covered. Find gems that will make you stand out and feel great. </p>
+
+                            <p>Not only will you be in style you can also help the environment by purchasing secondhand clothes. Fashion does not always mean breaking the bank, visit London's thrift stores and find something that will spark joy in you.</p>
+                    </div>
+
+                    <img src="images/vintage_1.jpg" alt="vintage-store" id="about-image1">
+                    <img src="images/vintage_2.jpg" alt="vintage-store" id="about-image2">
+                </div>
+            </div>
+
+                
+            <section class="grid-con">
+                <h2 class="hidden">Feel free to contact us</h2>
+                <section id="contact-form-adress-left">
+                        <h3>Feel free to contact us</h3>
+                        <p>Are you planning a trip to London Canada?<br>
+                        WORRY NO MORE!<br>
+                    </p>
+                    <h3 class="hidden">Reach out to us</h3>
+                    <p>
+                        Feel free to reach out to us! <br>
+                        We can provide you with a customized itinerary based on your interests.<br>
+                        EXPLORE LONDON WITH EASE AND ENJOY WHAT THE CITY HAS TO OFFER!
+                    </p>
+                </section>
+
+                <section id="contact-form-fields-right">
+                    <h3 class="hidden">Contact Us Form</h3>
+                    <form action="email.php" method="POST" enctype="text/plain">
+                        <input name="fullName" type="text" required placeholder="Full Last Name">
+                        <input name="contactInfo" type="text" required placeholder="Email">
+                        <textarea name="msg" placeholder="White your comments here"></textarea>
+                        <input name="submit" type="submit" value="Send">
+                    </form>
+                </section>
+
+            </section>
+    
+
+            <!-- <div class="grid-con" id="about">
+                <h2 class="hidden">Contact Information and Form</h2>
+                <section id="contact-left">
+                        <h3>Feel free to contact us</h3>
+                        <p>Are you planning a trip to London Canada?</p>
+                    <h3 class="hidden">Phone, Fax and Email</h3>
+                    <p>
+                        Feel free to reach out to us! We can provide you with a customized itinerary based on your interests. Explore London with ease and enjoy what the city has to offer. 
+                    </p>
+                </section>
+
+                <section id="grid-con" class="contact">
+                    <h3 class="hidden">Contact Us Form</h3>
+                    <form action="email.php" method="POST"              enctype="text/plain">
+                        <input name="fullName" type="text" placeholder="Name">
+                        <input name="email" type="text" required placeholder="Email">
+                        <textarea name="Message" placeholder="Message"></textarea>
+                        <input name="submit" type="submit" value="Send">
+                    </form>
+                </section>
+
+            </div> -->
+
+        </main>
+
+        <div id="footer-con">
+            <div class="grid-con" id="footer">
+                
+                <div id="footer-logo">
+                    <img src="images/logo.svg"   alt="exploring london canada logo">
+                </div>
+        
+                <div id="footer-nav">
+                    <p>London Ontario, Canada is a hub of heritage, arts, cultural spots, and natural beauty. A city filled with great art, great food, and great people. Visit London Ontario, Canada and be amazed by the city's wonder.</p>
+                </div>
+        
+                <div id="footer-newsletter1">
+                    <input name="email" type="text" placeholder="Newsletter Sign-Up!" class="sign">
+                </div>
+        
+                <div id="footer-newsletter2">
+                    <input name="submit" type="submit" value="Submit">
+                </div>
+        
+                <div id="footer-social" class="social-media-icons-white">
+                    <a href="https://facebook.com">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://instagram.com">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://twitter.com">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+
+        
+
+    </div> 
+</body>
+</html>

@@ -1,0 +1,392 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+.box-color {
+	color: #fff;
+	background: #000;
+	text-align: center;
+	margin: 0;
+}
+
+@font-face {
+	font-family: "Cinzel";
+	src: url(../fonts/Cinzel/Cinzel-VariableFont_wght.ttf);
+	src: url(../fonts/Cinzel/Cinzel-VariableFont_wght.ttf) format("woff"),
+	url(../fonts/Cinzel/Cinzel-VariableFont_wght.ttf) format("opentype"),
+	url(../fonts/Cinzel/Cinzel-VariableFont_wght.ttf) format("svg");
+	}
+
+
+
+div,p,body,header,footer,section,article,nav { 
+	margin: 0; 
+	padding: 0; 
+}	
+
+img { 
+	border: none; 
+	margin: 0; 
+	padding: 0; 
+}
+
+/*html selectors*/
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+
+
+
+a {
+	text-decoration: none;
+}
+
+
+
+.hidden {
+	display: none;
+}
+
+
+
+
+#container {
+	margin: 0 auto;
+	width: 428px;
+}
+
+/* this is our grid based off of our XD file */
+
+.grid-con {
+	display: grid;
+	grid-template-columns: repeat(4, 85px);
+	grid-column-gap: 16px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+
+
+#header-con {
+	background-color: #DCD7C9;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#header-logo {
+	grid-column: 1/3;
+}
+
+#mobile-nav {
+	grid-column: 4/-1;
+	margin-top: 20px;
+}
+
+
+
+.burger {
+	height: 5px;
+	border-radius: 20%;
+	background-color:#2C3639;
+	display: block;
+	margin-bottom: 10px;
+}
+
+/* index page */
+
+#hero-con {
+	background-color: #aaaaaa;
+	background: url("../images/hero_mobile.jpg");
+	height: 458px;
+}
+
+#hero-text {
+	grid-column: 1/-1;
+	
+	height: 380px;
+	margin-top: 20px;
+}
+
+#hero-text h2 {
+	font-family: 'Cinzel';
+	font-size: 20px;
+}
+
+
+#hero-text p {
+	font-size: 15px;
+	font-family: 'Gill Sans MT';
+}
+
+
+
+#image-slider-con {
+	background-color: #dddddd;
+	
+	height: 500px;
+	position: relative;
+}
+
+#image-slider-con h2 {
+	background-color: #ffffff;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin: 0;
+	font-family: 'Cinzel';
+	font-size: 25px;
+}
+
+#image-slider-con h3 {
+	text-align: center;
+	font-family: 'Cinzel';
+	font-size: 20px;
+}
+
+#image-slider-con p {
+	font-family: 'Gll Sans MT';
+	font-size: 15px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#mobile-slider-left {
+	position: absolute;
+	left: 0;
+	font-size: 120px;
+	color:rgb(207, 204, 204);
+	top: 150px;
+	
+}
+
+#mobile-slider-right {
+	position: absolute;
+	right: 0;
+	font-size: 120px;
+	color:rgb(207, 204, 204);
+	top: 150px;
+}
+
+
+
+#about-us-con h2 {
+	background-color: #ffffff;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin: 0;
+	font-family: 'Cinzel';
+	font-size: 25px;
+}
+
+#about-us-text-con {
+	background-color: #DCD7C9;
+	
+}
+
+#about-us-text-con h3 {
+	margin-bottom: 30px;
+	text-size-adjust: 250%;
+	font-family: 'Cinzel';
+	font-size: 20px;
+}
+
+#about-us-text-con p {
+	text-size-adjust: 200%;
+	font-family: 'Gill Sans MT';
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+#about-us-text {
+	grid-column: 1/-1;
+	height: 250px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.about-us-photo {
+	grid-column: 1/-1;
+	display: block;
+	margin: 20px auto 0 auto;
+}
+
+#contact-us-con {
+	margin-top: 100px;
+	margin-bottom: 60px;
+
+}
+
+#contact-us-con h3 {
+	text-align: center;
+	font-family: 'Cinzel';
+	font-size: 20px;
+}
+
+#contact-us-con p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-size-adjust: 150%;
+	font-family: 'Gill Sans MT';
+	font-size: 15px;
+}
+
+#contact-text {
+	grid-column: 1/-1;
+	
+	height: 350px;
+	margin-bottom: 150px;
+}
+
+#contact-form {
+	grid-column: 1/5;
+	
+	height: 580px;
+}
+
+
+/*Common page elements  */
+
+#footer-con {
+	height: 250px;
+	background-color: #DCD7C9;
+}
+
+#footer-con img {
+	margin-top: 20px;
+}
+
+#footer-con p {
+	color: rgb(0, 0, 0);
+	margin: 40px 0px 20px 20px;
+	font-family: 'Cinzel';
+	font-size: 15px;
+}
+
+input[type="text"] {
+	margin-left: 20px;
+	margin-bottom: 10px;
+	
+}
+
+input[type="submit"] {
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+#message {
+	margin-left: 20px;
+}
+
+
+
+#footer-box {
+	margin-top: 40px;
+
+	height:45px;
+	grid-column: 1/3;
+	background-color: #ddd;
+}
+
+#footer-newsletter {
+	margin-top: 100px;
+	
+	height:100px;
+	grid-column: 1/-1;
+	background-color: #ddd;
+}
+
+/* gallery page */
+
+#hero-gallery-con {
+	background-color: #aaaaaa;
+	background: url("../images/banner_2_mobile.jpg");
+	height: 458px;
+}
+
+#hero-gallery-text {
+	grid-column: 1/-1;
+	
+	height: 350px;
+	margin-top: 20px;
+	color: white;
+}
+
+#hero-gallery-text h3 {
+	font-family: 'Cinzel';
+	font-size: 25px;
+}
+
+#hero-gallery-text p {
+	font-family: 'Gill Sans MT';
+	font-size: 15px;
+}
+
+
+
+#gallery-controls {
+	grid-column: 1/-1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.dot {
+	background-color: #dddddd;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	margin: 5px;
+  }
+
+.select {
+	background-color: #6d6c6c;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	margin: 5px;
+  }
+
+  
+ 
+
+#gallery h2 {
+	text-align: center;
+	grid-column: 1/-1;
+	margin-top: 40px;
+	margin-bottom: 40px;
+
+	font-family: 'Cinzel';
+	font-size: 25px;
+}
+
+.gallery-box {
+	grid-column: 1/-1;
+	background-color: #DCD7C9;
+
+	height: 450px;
+	margin-bottom: 20px;
+}
+
+.gallery-box h3 {
+	text-align: center;
+	font-family: 'Cinzel';
+	font-size: 20px;
+}
+
+.gallery-box p {
+	text-size-adjust: 120%;
+	margin: 20px 20px 0px 20px;
+	font-family: 'Gill Sans MT';
+	font-size: 15px;
+}
+
+
+
+
+

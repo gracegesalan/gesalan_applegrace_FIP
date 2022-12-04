@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Exploring London Canada</title>
+<link href="css/main-mobile.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.google.com/specimen/Cinzel?query=cinzel" rel='stylesheet'>
+</head>
+<!-- students must convert divs to semantic tags -->
+<body>
+	<div id="container">
+        
+        <div id="header-con">
+            <div id="main-header" class="grid-con">
+                <img src="images/logo.svg" alt="exploring london canada logo" id="header-logo">
+                 <div id="mobile-nav">
+                    <span class="burger"></span>
+                    <span class="burger"></span>
+                    <span class="burger"></span>
+                 </div>
+            </div>    
+        </div> 
+
+        <main>
+            <div id="hero-con">
+                <div class="grid-con">
+                    <div id="hero-text">
+                        <h2>Exploring London Canada</h2>
+                        <p>When people hear the word 'London' they think about London in the United Kingdom, which is understandable. But did you know there is another London in Canada? It is a city full of heritage, arts, cultural spots, and natural beauty. </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="image-slider-con">
+                <h2>HOTSPOTS IN LONDON</h2>
+                <img src="images/hotspot_1_mobile.jpg" alt="image">
+                <!-- ascii symbols for <> -->
+                <span id="mobile-slider-left">&#60;</span>
+                <span id="mobile-slider-right">&#62;</span>
+                <h3>BUDWEISER GARDEN</h3>
+                <p>It is a sports-entertainment centre, in London, Ontario, Canada. This is the largest such centre in Southwestern Ontario, Canada. Hockey games, concerts, or events Budweiser is the place to go.</p>
+            </div>
+
+            <div id="about-us-con">
+                <h2>Vintage Gems in London</h2>   
+                    <div id="about-us-text-con">     
+                        <div class="grid-con">
+                            <div id="about-us-text">
+                                <h3>Looking for something unique to wear?
+                                    Check out London's Thrift Stores
+                                    </h3>
+                                    <p>Whether it's summer, autumn, winter, or spring the city's vintage stores has you covered. Find gems that will make you stand out and feel great.</p>
+                                        
+                                    <p>Not only will you be in style you can also help the environment by purchasing secondhand clothes. Fashion does not always mean breaking the bank, visit London's thrift stores and find something that will spark joy in you.</p>
+                            </div>
+                        </div>      
+                    </div>  
+                    <div class="grid-con" id="about-us-photos">
+                        <img src="images/vintage_1_mobile.jpg"  alt="interior thrift store" class="about-us-photo" style="width: 350px;" >
+                        <img src="images/vintage_2_mobile.jpg"  alt="interior thrift store" class="about-us-photo" style="width: 350px;" >
+                        
+                    </div>         
+            </div>
+
+            <div id="contact-us-con">
+                <h3>FEEL FREE TO CONTACT US</h3>
+                <p>Are you planning a trip to London Canada? 
+                </p>
+                <p>Feel free to reach out to us! We can provide you with a customized itinerary based on your interests. Explore London with ease and enjoy what the city has to offer.</p>
+                <div class="grid-con">
+                    <form action="email.php" method="post" enctype="text/plain">
+                        <input name="fullname" type="text" required placeholder="Name">
+
+                        <input name="email" type="text" required placeholder="Email">
+
+                        <input name="mobile" type="text" required placeholder="Mobile no.">
+
+                        <textarea id="message" name="message" placeholder="Message"></textarea>
+
+                        <input name="submit" type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+
+        </main>
+
+        <div id="footer-con">
+            <div class="grid-con">
+                <img src="images/logo.svg" alt="exploring london canada logo">
+                </div>
+                <p>Newsletter - Sign-up!</p>
+                    <input name="email" type="text" required placeholder="Email">
+                    <input name="submit" type="submit" value="Submit">
+             </div>
+        </div>
+    
+
+    
+</body>
+</html>
